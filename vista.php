@@ -24,8 +24,6 @@ function pintarPe(){
     </html>
 <?php
 }
-
-
 function mostrarContactos($contactos){
     $cabeceraTabla = false;
     for ($i=0; $i<count($contactos); $i++) {
@@ -46,8 +44,6 @@ function mostrarContactos($contactos){
     }
     echo "</table>";
 }
-
-
 function pintarFormulario($action,$method,$nombre,$apellidos,$tel_fijo,$correo){
     ?>
 
